@@ -1,7 +1,28 @@
 aid: patient-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patient-io.png
 name: Patient IO
-description: Patient IO is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Patient IO (legal entity Filament Labs, Inc.) was an Austin, Texas care
+  coordination and patient engagement platform founded in 2013 by Jason
+  Bornhorst, Colin Anawaty, and Brian Gambs out of the Techstars Austin
+  accelerator. Its API-first mobile platform connected health systems with
+  patients between visits to support the transition to value-based care.
+  athenahealth acquired Patient IO in August 2016 and its architecture became
+  the foundation of athenahealth's patient-facing athenawell application. The
+  standalone product, developer program, and public API surface have since been
+  retired; patientio.com now serves only a placeholder page and its mail is
+  handled by athenahealth.
 url: https://raw.githubusercontent.com/api-evangelist/patient-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,22 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: athenahealth
+x-acquired-date: '2016-08-29'
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Patient Engagement
+- Care Coordination
+- Digital Health
+- Value-Based Care
+- Techstars
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://patientio.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
