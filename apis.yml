@@ -34,7 +34,7 @@ x-status: acquired
 x-acquired-by: athenahealth
 x-acquired-date: '2016-08-29'
 x-defunct: true
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
